@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@import "tailwindcss-primeui";
+@import "primeicons/primeicons.css";
+@import "./fall.css";
+
+@layer utilities {
+    /* Основной контейнер скроллбара */
+    ::-webkit-scrollbar {
+      width: 8px; /* Толщина */
+      height: 8px;
+    }
+  
+    /* Ползунок (бегунок) */
+    ::-webkit-scrollbar-thumb {
+      background-color: var(--p-surface-500);
+      border-radius: 4px;
+    }
+  
+    /* Фон дорожки */
+    ::-webkit-scrollbar-track {
+      background: none;
+      border-radius: 0;
+    }
+  }

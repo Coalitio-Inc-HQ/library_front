@@ -1,0 +1,23 @@
+.DS_Store
+node_modules
+dist
+
+# Локальные файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Директории и файлы настроек редакторов
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
